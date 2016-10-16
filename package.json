@@ -1,0 +1,16 @@
+{
+  "name": "mountains.js",
+  "version": "1.0.0",
+  "description": "Create wonderful abstract mountains for your homepage",
+  "author": "Lars-Erik Bruce",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-uglify": "^2.0.0"
+  }
+}

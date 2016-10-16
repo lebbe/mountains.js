@@ -1,0 +1,38 @@
+
+body {
+  background-color: #F7FFFF;
+}
+
+.triangle {
+  height: 0;
+  width: 0;
+  position: fixed;
+  z-index: -1;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.triangle-blue {
+  border-bottom-color: rgba(73, 57, 255, 0.6);
+}
+.triangle-green {
+  border-bottom-color: rgba(121, 255, 94, 0.6);
+}
+.triangle-red {
+  border-bottom-color: rgba(255, 80, 53, 0.6);;
+}
+.triangle-yellow {
+  border-bottom-color: rgba(255, 214, 67, 0.6);
+}
+.triangle-purple {
+  border-bottom-color: rgba(255, 26, 227, 0.6);
+}
+
+/* NON-JAVASCRIPT FALLBACK. */
+
+ .triangle-blue {bottom: 0px;border-width: 0px 98px 111px;left: -49px;} .triangle-green {bottom: -22px;border-width: 0px 98px 111px;left: 206px;} .triangle-red {bottom: -44px;border-width: 0px 98px 111px;left: 14px;} .triangle-yellow {bottom: -33px;border-width: 0px 98px 111px;left: 142px;} .triangle-purple {bottom: -11px;border-width: 0px 98px 111px;left: 78px;}
+@media (min-width:320px) { .triangle-blue {bottom: -16px;border-width: 0px 148px 166px;left: -74px;} .triangle-green {bottom: -66px;border-width: 0px 148px 166px;left: 117px;} .triangle-red {bottom: 0px;border-width: 0px 148px 166px;left: 21px;} .triangle-yellow {bottom: -50px;border-width: 0px 148px 166px;left: 213px;} .triangle-purple {bottom: -33px;border-width: 0px 148px 166px;left: 309px;}}
+@media (min-width:480px) { .triangle-blue {bottom: 0px;border-width: 0px 265px 298px;left: -132px;} .triangle-green {bottom: -119px;border-width: 0px 265px 298px;left: 39px;} .triangle-red {bottom: -29px;border-width: 0px 265px 298px;left: 211px;} .triangle-yellow {bottom: -59px;border-width: 0px 265px 298px;left: 555px;} .triangle-purple {bottom: -89px;border-width: 0px 265px 298px;left: 383px;}}
+@media (min-width:860px) { .triangle-blue {bottom: -71px;border-width: 0px 316px 355px;left: 456px;} .triangle-green {bottom: 0px;border-width: 0px 316px 355px;left: 46px;} .triangle-red {bottom: -142px;border-width: 0px 316px 355px;left: 251px;} .triangle-yellow {bottom: -106px;border-width: 0px 316px 355px;left: 660px;} .triangle-purple {bottom: -35px;border-width: 0px 316px 355px;left: -158px;}}
+@media (min-width:1024px) { .triangle-blue {bottom: -88px;border-width: 0px 395px 444px;left: 826px;} .triangle-green {bottom: -177px;border-width: 0px 395px 444px;left: 58px;} .triangle-red {bottom: -133px;border-width: 0px 395px 444px;left: 570px;} .triangle-yellow {bottom: 0px;border-width: 0px 395px 444px;left: -197px;} .triangle-purple {bottom: -44px;border-width: 0px 395px 444px;left: 314px;}}
+@media (min-width:1280px) { .triangle-blue {bottom: -266px;border-width: 0px 593px 667px;left: 855px;} .triangle-green {bottom: 0px;border-width: 0px 593px 667px;left: -296px;} .triangle-red {bottom: -66px;border-width: 0px 593px 667px;left: 87px;} .triangle-yellow {bottom: -200px;border-width: 0px 593px 667px;left: 1239px;} .triangle-purple {bottom: -133px;border-width: 0px 593px 667px;left: 471px;}}
