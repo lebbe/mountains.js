@@ -15,6 +15,7 @@ from the latest release into your homepage, and add these five lines of HTML:
 <div class="triangle triangle-purple"></div>
 ```
 
+If you want to see an example usage of mountains.js, you could check out my homepage at http://liberalisten.net
 
 Why include the HTML, instead of manipulating DOM with JavaScript?
 Because mountains.js provide a CSS fallback for those who have
