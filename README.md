@@ -5,7 +5,7 @@ This is mountains.js. A JavaScript art renderer inspired by
 the "Mountains blue" and "Mountains Gold" images in http://parlorwall.com
 
 Installing is simple. Include the mountains.min.js and mountains.min.css files
-on your homepage, and add these five lines of HTML:
+from the latest release into your homepage, and add these five lines of HTML:
 
 ```html
 <div class="triangle triangle-blue"></div>
