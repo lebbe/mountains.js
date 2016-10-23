@@ -13,6 +13,20 @@
 	const gr = 1.618033896
 	const maxAspectRatio = 0.8
 
+	// Stolen from
+	// http://stackoverflow.com/questions/6274339
+	// (how can i shuffle an array in javascript)
+	function shuffle(a) {
+		for (let i = a.length; i; i--) {
+			// The next semicolon is due to a bug in babel es2015 presets
+			// https://github.com/babel/babel/issues/2304
+			// which seems closed and unresolved
+			let j = Math.floor(Math.random() * i);
+			[a[i - 1], a[j]] = [a[j], a[i - 1]]
+		}
+	    return a
+	}
+
 	/*
 	 * Machinery for making beautiful art.
 	 */
@@ -20,10 +34,9 @@
 		w = w || window.innerWidth
 		h = h || window.innerHeight
 
-		const elems = ['blue', 'green', 'red', 'yellow', 'purple']
+		const elems = shuffle(['blue', 'green', 'red', 'yellow', 'purple'])
 		.map(a => '.triangle-' + a)
 		.map(a => document.querySelector(a))
-		.sort(() => Math.random() - 0.5 )
 
 
 
@@ -40,13 +53,13 @@
 
 		const maxUpDown = triangleHeight / 5 // Magic number
 
-		const bottomPlacements = [
+		const bottomPlacements = shuffle([
 			0,
 			-maxUpDown * 2,
 			(maxUpDown / 2) - maxUpDown,
 			-maxUpDown - (maxUpDown / 2),
 			-maxUpDown
-		].sort(() => Math.random() - 0.5)
+		])
 
 		const borderWidth = [0, triangleWidth / 2, triangleHeight, triangleWidth / 2]
 			.map(d => parseInt(d) + 'px').join(' ')
