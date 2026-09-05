@@ -2,7 +2,7 @@
 
 
 This is mountains.js. A JavaScript art renderer inspired by
-the "Mountains blue" and "Mountains Gold" images in http://parlorwall.com
+the "Mountains blue" and "Mountains Gold" images in ~~http://parlorwall.com~~ (dead link!)
 
 Installing is simple. Include the mountains.min.js and mountains.min.css files
 from the latest release into your homepage, and add these five lines of HTML:
